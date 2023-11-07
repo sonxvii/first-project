@@ -156,13 +156,6 @@ a[href^=http] {
     background: transparent;
 }
 
-#feedback {
-    height: auto;
-    width: 300px;
-    margin: 10px;
-    padding: 10px 0px;
-}
-
 .textarea {
     width: 300px;
     padding: 5px;
