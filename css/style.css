@@ -11,7 +11,7 @@ html {
 header {
     background-color: #1D1D1D;
     text-align: center;
-    
+
 }
 
 main {
@@ -25,7 +25,7 @@ footer {
 }
 
 #about {
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     text-align: left;
     margin: 15px;
     padding: 20px 40px;
@@ -39,7 +39,7 @@ footer {
 }
 
 #content {
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     text-align: left;
     padding: 10px 50px;
 }
@@ -66,6 +66,7 @@ ol {
     text-align: left;
     padding-left: 20px;
 }
+
 li {
     padding: 10px;
     margin: 5px;
@@ -75,14 +76,16 @@ dd {
     margin: 10px;
     padding: 10px;
 }
+
 dt {
     margin: 10px;
     padding: 10px;
 }
+
 img {
     border: 3px transparent;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px rgba(0,0,0, 50%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 50%);
     align-content: center;
 }
 
@@ -105,4 +108,91 @@ img {
 .note {
     border: 1.5px solid;
     background-color: #F5F5F5;
+
+}
+
+.tracklist {
+    border: 1.5px #000000 solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tracklist td,
+.tracklist th {
+    border: 1.5px #000000 solid;
+    padding: 5px 5px;
+}
+
+.tracklist tbody:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+.bill-table {
+    border: 3px #000000 solid;
+    border-collapse: collapse;
+
+}
+
+.bill-table td,
+.bill-table th {
+    border: 1.5px #4291FF solid;
+    padding: 10px 5px;
+}
+
+.bill-table tbody:nth-child(3) {
+    text-decoration: underline;
+}
+
+#reg-form input[type=text],
+#reg-form input[type=password] {
+    border: 1.5px solid #4291FF;
+    background: #d2e5ff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 100px;
+}
+
+a[href^=http] {
+    background: transparent;
+}
+
+#feedback {
+    height: auto;
+    width: 300px;
+    border: 1.5px #000000 solid;
+    background-color: #F5F5F5;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#feedback input[type="text"] {
+    height: 10px;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-item {
+    text-align: center;
+}
+
+#feedback input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+#feedback input[type="submit"]:hover {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    background-color: #d2e5ff;
 }
