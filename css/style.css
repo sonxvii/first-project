@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #1D1D1D;
+    text-align: center;
+    
+}
+
+main {
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+footer {
+    background-color: #1D1D1D;
+    text-align: center;
+}
+
+#about {
+    background-color:  #FFFFFF;
+    text-align: left;
+    margin: 15px;
+    padding: 20px 40px;
+}
+
+#articles {
+    background-color: #F5F5F5;
+    border: 1.5px solid;
+    margin: 15px;
+    padding: 20px 40px;
+}
+
+#content {
+    background-color:  #FFFFFF;
+    text-align: left;
+    padding: 10px 50px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px 0px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+li {
+    padding: 10px;
+    margin: 5px;
+}
+
+dd {
+    margin: 10px;
+    padding: 10px;
+}
+dt {
+    margin: 10px;
+    padding: 10px;
+}
+img {
+    border: 3px transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0, 50%);
+    align-content: center;
+}
+
+.link {
+    color: #000000;
+}
+
+.link:hover {
+    color: #4291FF;
+}
+
+.link-header {
+    color: #FFFFFF;
+}
+
+.link-header:hover {
+    color: #4291FF;
+}
+
+.note {
+    border: 1.5px solid;
+    background-color: #F5F5F5;
+}
