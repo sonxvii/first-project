@@ -19,6 +19,7 @@
         <nav>
             <p style="text-align: center"><a class="link-header" href="#about">Обо мне</a></p>
             <p style="text-align: center"><a class="link-header" href="#articles">Мои статьи</a></p>
+            <p style="text-align: center"><a class="link-header" href="#feedback">Обратная связь</a></p>
         </nav>
 
     </header>
@@ -35,6 +36,7 @@
                 Labore dicta cumque ea laboriosam voluptate sapiente, deleniti odio consequatur suscipit laudantium ex
                 debitis ad. Nostrum, laborum recusandae labore expedita minima maxime culpa tempora quidem minus
                 doloribus impedit, illo beatae esse delectus dolores aliquid dicta.</p>
+            <br>
         </section>
         <section id="articles">
             <h2> Мои статьи</h2>
@@ -43,10 +45,47 @@
                 <li><a class="link" href="article2.html">Топ лучших редакторов HTML-кода</a></li>
                 <li><a class="link" href="article3.html">Определение структуры сайта</a></li>
                 <li><a class="link" href="article4.html">Список терминов</a></li>
+                <li><a class="link" href="article-KanyeWest.html">Kanye West — Yeezus</a></li>
                 <li><a class="link" href="article-Machiavelli2.html">Никколо Макиавелли (краткая биография)</a></li>
                 <li><a class="link" href="article-Machiavelli.html">«Государь» — Никколо Макиавелли (отрывок)</a></li>
             </ul>
         </section>
+        <section id="feedback">
+        <form id="feedback" action="">
+            <div class="form-item">
+                <label for="topic">Тема</label>
+                <br>
+                <select name="topic" id="topic" required>
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-item">
+                <label for="name">Имя</label>
+                <br>
+                <input name="name" id="name" type="text" required>
+            </div>
+            <br>
+            <div class="form-item">
+                <label for="email">E-mail</label>
+                <br>
+                <input name="email" id="email" type="text" required>
+            </div>
+            <br>
+            <div class="form-item">
+                <label for="textarea">Текст сообщения</label>
+                <br>
+                <textarea id="textarea" rows="3" type="textarea" required></textarea>
+            </div>
+            <br>
+            <div class="form-item">
+                <input id="submit" type="submit" value="ОТПРАВИТЬ">
+            </div>
+        </form>
+    </section>
     </main>
     <footer>
         <p style="color:#FFFFFF">&copy; Берсенева София, 2023</p>
