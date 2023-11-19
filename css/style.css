@@ -31,11 +31,23 @@ footer {
     padding: 20px 40px;
 }
 
+#about h2::before {
+    content: "New!";
+    color: #000000;
+    background: #fffeb4;
+    border: 0.5px solid black;
+    margin-left: 10px;
+}
+
 #articles {
     background-color: #F5F5F5;
     border: 1.5px solid;
     margin: 15px;
     padding: 20px 40px;
+}
+
+#articles li:nth-child(2n) {
+ background: #e4e4e4;
 }
 
 #content {
@@ -89,12 +101,29 @@ img {
     align-content: center;
 }
 
-.link {
-    color: #000000;
+a.terminy:after {
+    content: "Важно!";
+    font-style: italic;
+    color: black;
+    background-color: #e2b4ff;
+    border: 0.5px solid black;
+    margin-left: 10px;
+}
+
+.link:link {
+    color: #4291FF;
 }
 
 .link:hover {
-    color: #4291FF;
+    color: #ff42e9;
+}
+
+.link:focus {
+    color: #00ff33;
+}
+
+.link:visited {
+    color: #1900ff;
 }
 
 .link-header {
@@ -103,6 +132,10 @@ img {
 
 .link-header:hover {
     color: #4291FF;
+}
+
+.link-header:focus {
+    color: #b700ff;
 }
 
 .note {
@@ -156,13 +189,23 @@ a[href^=http] {
     background: transparent;
 }
 
-.textarea {
-    width: 300px;
+#textarea {
+    background: #d2e5ff;
+    width: 180px;
     padding: 5px;
     margin-bottom: 5px;
 }
 
 #feedback input[type="text"] {
+    background: #d2e5ff;
+    height: 10px;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#feedback input[type="email"] {
+    background: #d2e5ff;
     height: 10px;
     width: 180px;
     padding: 5px;
@@ -187,3 +230,4 @@ a[href^=http] {
     font-style: italic;
     background-color: #d2e5ff;
 }
+
