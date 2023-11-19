@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #1D1D1D;
+    text-align: center;
+
+}
+
+main {
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+footer {
+    background-color: #1D1D1D;
+    text-align: center;
+}
+
+#about {
+    background-color: #FFFFFF;
+    text-align: left;
+    margin: 15px;
+    padding: 20px 40px;
+}
+
+#about h2::before {
+    content: "New!";
+    color: #000000;
+    background: #fffeb4;
+    border: 0.5px solid black;
+    margin-left: 10px;
+}
+
+#articles {
+    background-color: #F5F5F5;
+    border: 1.5px solid;
+    margin: 15px;
+    padding: 20px 40px;
+}
+
+#articles li:nth-child(2n) {
+ background: #e4e4e4;
+}
+
+#content {
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 10px 50px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px 0px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+}
+
+dd {
+    margin: 10px;
+    padding: 10px;
+}
+
+dt {
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    border: 3px transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 50%);
+    align-content: center;
+}
+
+a.terminy:after {
+    content: "Важно!";
+    font-style: italic;
+    color: black;
+    background-color: #e2b4ff;
+    border: 0.5px solid black;
+    margin-left: 10px;
+}
+
+.link:link {
+    color: #4291FF;
+}
+
+.link:hover {
+    color: #ff42e9;
+}
+
+.link:focus {
+    color: #00ff33;
+}
+
+.link:visited {
+    color: #1900ff;
+}
+
+.link-header {
+    color: #FFFFFF;
+}
+
+.link-header:hover {
+    color: #4291FF;
+}
+
+.link-header:focus {
+    color: #b700ff;
+}
+
+.note {
+    border: 1.5px solid;
+    background-color: #F5F5F5;
+
+}
+
+.tracklist {
+    border: 1.5px #000000 solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tracklist td,
+.tracklist th {
+    border: 1.5px #000000 solid;
+    padding: 5px 5px;
+}
+
+.tracklist tbody:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+.bill-table {
+    border: 3px #000000 solid;
+    border-collapse: collapse;
+
+}
+
+.bill-table td,
+.bill-table th {
+    border: 1.5px #4291FF solid;
+    padding: 10px 5px;
+}
+
+.bill-table tbody:nth-child(3) {
+    text-decoration: underline;
+}
+
+#reg-form input[type=text],
+#reg-form input[type=password] {
+    border: 1.5px solid #4291FF;
+    background: #d2e5ff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 100px;
+}
+
+a[href^=http] {
+    background: transparent;
+}
+
+#textarea {
+    background: #d2e5ff;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#feedback input[type="text"] {
+    background: #d2e5ff;
+    height: 10px;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#feedback input[type="email"] {
+    background: #d2e5ff;
+    height: 10px;
+    width: 180px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-item {
+    text-align: center;
+}
+
+#feedback input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+#feedback input[type="submit"]:hover {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-style: italic;
+    background-color: #d2e5ff;
+}
+
